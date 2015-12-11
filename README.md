@@ -4,7 +4,7 @@ Nanny Wifi
 
 ## Description
 
-This is our attempt at making a safe access point for internet users to blobk adult like content.
+This is our attempt at making a safe access point for internet users to block adult like content.
 
 ## Installation
 
