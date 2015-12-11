@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>HelperFunctions.h</itemPath>
+      <itemPath>cat_badwords.h</itemPath>
+      <itemPath>cat_chat.h</itemPath>
+      <itemPath>cat_conspiracy.h</itemPath>
+      <itemPath>cat_drugadvocacy.h</itemPath>
+      <itemPath>cat_gambling.h</itemPath>
+      <itemPath>cat_games.h</itemPath>
+      <itemPath>cat_gore.h</itemPath>
+      <itemPath>cat_illegaldrugs.h</itemPath>
+      <itemPath>cat_intolerance.h</itemPath>
+      <itemPath>cat_legaldrugs.h</itemPath>
+      <itemPath>cat_malware.h</itemPath>
+      <itemPath>cat_nudism.h</itemPath>
+      <itemPath>cat_peer2peer.h</itemPath>
+      <itemPath>cat_personals.h</itemPath>
+      <itemPath>cat_pornography.h</itemPath>
+      <itemPath>cat_proxies.h</itemPath>
+      <itemPath>cat_secretsocieties.h</itemPath>
+      <itemPath>cat_violence.h</itemPath>
+      <itemPath>cat_warezhacking.h</itemPath>
+      <itemPath>cat_weapons.h</itemPath>
+      <itemPath>good_cat_words.h</itemPath>
+      <itemPath>program.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>HelperFunctions.cpp</itemPath>
+      <itemPath>program.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-lcurl</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="HelperFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HelperFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_badwords.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_chat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_conspiracy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_drugadvocacy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_gambling.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_games.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_gore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_illegaldrugs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_intolerance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_legaldrugs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_malware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_nudism.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_peer2peer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_personals.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_pornography.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_proxies.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_secretsocieties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_violence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_warezhacking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_weapons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="good_cat_words.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="program.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <commandLine>--DEBUG</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <commandLine>-lcurl</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="HelperFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HelperFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_badwords.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_chat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_conspiracy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_drugadvocacy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_gambling.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_games.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_gore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_illegaldrugs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_intolerance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_legaldrugs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_malware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_nudism.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_peer2peer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_personals.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_pornography.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_proxies.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_secretsocieties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_violence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_warezhacking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cat_weapons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="good_cat_words.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="program.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

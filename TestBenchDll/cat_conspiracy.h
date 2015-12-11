@@ -1,0 +1,67 @@
+/* 
+ * File:   cat_conspiracy.h
+ * Author: jacksalien
+ *
+ * Created on January 19, 2015, 2:48 PM
+ */
+
+#ifndef CAT_CONSPIRACY_H
+#define	CAT_CONSPIRACY_H
+
+#include <vector>
+#include <string>
+
+std::vector<std::string> cat_conspiracy_vec({
+"<CONSPIR><30>",
+"<BIZARRE><40>",
+"<TOP SECRET><40>",
+"<REPTILLIAN AGENDA><40>",
+"<SECRET SOCIET><40>",
+"<LUNATIC FRINGE><25>",
+"<BEHIND THE SCENES><40>",
+"<PARANORMAL><40>",
+"<SUPERNATURAL><40>",
+"<MIND CONTROL><40>",
+"<DISINFORM><40>",
+"<BRAINWASH><40>",
+"<BOHEMIAN GROVE><40>",
+"<SUBLIMINAL><40>",
+"<SUBCULTURE><40>",
+"<COVERUP><40>",
+"<TRUTHSEEKING><40>",
+"<TRUTH SEEKING><40>",
+"<SYMBOLOG><40>",
+"<BACKMASK><40>",
+"<RUMORMILL><40>",
+"<CHEATING DEVICE><40>",
+"<TEST DEVICE><40>",
+"<LOCK PICK><40>",
+"<PICK LOCK><40>",
+"<INTRIGUING><20>",
+"<OCCULT><40>",
+"<PHANTOM><40>",
+"<ALL EXPOSED><40>",
+"<INVISIBLE EMPIRE><40>",
+"<ALTERNATIVE NEWS><40>",
+"<EXPOSING THE LIES><55>",
+"<BIG BROTHER><40>",
+"<ONE WORLD GOVERNMENT><40>",
+"<NEW WORLD ORDER><40>",
+"<APOCALYP><40>",
+"<ANTICHRIST><40>",
+"<CONTROL THE PEOPLE><75>",
+"<CONTROL THE WORLD><75>",
+"< UFO><40>",
+"<AREA 51><40>",
+"<ALIEN SIGHT><40>",
+"<EXTRATERRESTRIAL><40>",
+"<ALIENS><40>",
+"<SKYWATCH><40>",
+"<CROPCIRCLE><40>",
+"<SECRET BASE><40>",
+"<SECRET PLAN><40>",
+"<LAKE MONSTER><40>"
+});
+
+#endif	/* CAT_CONSPIRACY_H */
+
